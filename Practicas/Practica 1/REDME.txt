@@ -1,0 +1,42 @@
+Procesamiento por Lotes
+
+Este programa en Python permite realizar un procesamiento por lotes de direcciones IP contenidas en un archivo de texto. Convierte direcciones IPv6 de formato hexadecimal a decimal y direcciones IPv4 de formato decimal a hexadecimal, junto con otras transformaciones y generación de un archivo de salida.
+
+----Funcionalidades----
+
+Convierte direcciones IPv6 de formato hexadecimal a decimal.
+Convierte direcciones IPv4 de formato decimal a hexadecimal en mayúsculas.
+Genera un archivo de salida con las direcciones transformadas y otros datos.
+
+----Requisitos----
+
+Este código ha sido probado y es funcional en Python 3.10.9.     
+
+----Instrucciones de Uso----
+
+Asegúrate de tener un archivo prueba2.txt en el mismo directorio que tiene su (Procesamiento por lotes 1.py). El archivo prueba2.txt debe contener líneas con información en el formato siguiente:
+
+fdfb:1a23:6062:ba51:31ff:2fe2:d27d:d959/55,Torin,Perone,tperone0@tinypic.com,Male,176.72.184.196
+
+El primer campo es una dirección IPv6 en formato hexadecimal, seguido por otros campos separados por comas.
+Ejecuta el programa (Procesamiento por lotes 1.py) en tu terminal o entorno Python.
+
+El programa realizará las siguientes acciones:
+
+Leerá el archivo prueba2.txt.
+Procesará cada línea del archivo, convirtiendo las direcciones IPv6 e IPv4 según lo indicado.
+Generará un archivo salida.txt con los resultados transformados.
+En la consola, verás un mensaje para cada transformación, por ejemplo: 
+
+La entrada: fdfb:1a23:6062:ba51:31ff:2fe2:d27d:d959/55,Torin,Perone,tperone0@tinypic.com,Male,176.72.184.196 ha sido transformada a Perone:65019:6691:24674:47697:12799:12258:53885:55641/85:B0:48:B8:C4
+
+Al finalizar, el programa mostrará un mensaje de "Procesamiento por lotes completado.".
+
+----Archivos de Entrada y Salida----
+
+prueba2.txt: Este archivo debe contener las líneas con direcciones IPv6 e información adicional.
+salida.txt: Este archivo será generado por el programa y contendrá las direcciones transformadas y otros datos.
+
+----Notas----
+
+Asegúrate de que los archivos prueba2.txt y Procesamiento por lotes 1.py estén en el mismo directorio antes de ejecutar el programa.

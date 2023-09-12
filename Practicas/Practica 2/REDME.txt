@@ -1,0 +1,28 @@
+# Copia y Renombramiento de Archivos y Carpetas en Python
+
+## Descripción del Proyecto
+Este proyecto en Python tiene como objetivo copiar una carpeta de origen y su contenido a una carpeta de destino y, además, renombrar tanto las carpetas como los archivos TXT dentro de la carpeta de destino, convirtiendo letras en números y viceversa.
+
+## Requisitos
+- Python 3.10.9 (Otras versiones de Python pueden funcionar, pero la verificación se realizó en Python 3.10.9)
+
+## Funcionalidades
+- Copia una carpeta de origen y su contenido.
+- Renombra carpetas y archivos TXT en la carpeta de destino.
+
+## Instrucciones de Uso
+1. Asegúrate de tener Python 3.10.9 instalado en tu sistema.
+2. Coloca la carpeta que deseas copiar con el nombre "carpeta_original" en la misma ubicación que este archivo README.md y el script Python.
+3. Ejecuta el script Python en la misma ubicación.
+
+El script copiará la carpeta "carpeta_original" y su contenido en una carpeta llamada "carpeta_copia" en la misma ubicación y luego renombrará los archivos y carpetas según las reglas especificadas en el script.
+
+## Archivos de Entrada y Salida
+- **Carpeta de Origen:** La carpeta que deseas copiar se debe colocar en la misma ubicación que este archivo README.md y el script Python. Debe tener el nombre "carpeta_original".
+- **Carpeta de Destino:** La carpeta copiada se guardará en una carpeta llamada "carpeta_copia" en la misma ubicación que este archivo README.md y el script Python.
+
+## Personalización
+Puedes personalizar las reglas de renombramiento en el script Python según tus necesidades. El script actual convierte letras en números y viceversa, pero puedes modificarlo para realizar otras transformaciones si lo deseas.
+
+
+

@@ -1,0 +1,41 @@
+Requisitos
+Python 3.10.9 (u otra versión compatible con el código).
+Un archivo de texto que contenga una lista de archivos y sus tamaños en formato "nombre_archivo, tamaño_kb".
+Uso del Código
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.-   Definir la ruta al archivo que contiene la lista de archivos y tamaños en la variable ruta_archivo en la línea 4 del código. Asegúrese de que la ruta sea válida y que el archivo de texto tenga el formato adecuado.
+
+Ejemplo de cómo debe verse el archivo de texto:
+hola_mundo.py, 500kb
+archivo1.txt, 300kb
+imagen.png, 800kb
+
+2.- Ejecutar el código utilizando Python 3.10.9 o la versión compatible que tenga instalada.
+
+3.- El programa mostrará un menú con las siguientes opciones:
+
+Primer ajuste
+Mejor ajuste
+Peor ajuste
+Siguiente ajuste
+Terminar
+
+4.- Seleccione una de las opciones ingresando el número correspondiente y presionando Enter.
+
+5.- El programa leerá el archivo de texto con la lista de archivos y tamaños, y realizará la asignación de archivos a las particiones de memoria según el algoritmo seleccionado.
+
+6.- Después de asignar los archivos, el programa mostrará el estado de la memoria, indicando cuánta memoria se usa en cada partición y cuánta memoria queda disponible.
+
+7.- Repita los pasos 4-6 según sea necesario o seleccione la opción "0. Terminar" para salir del programa.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Algoritmos de Asignación de Memoria
+El código implementa los siguientes algoritmos de asignación de memoria:
+
+1.- Primer ajuste: Asigna el primer espacio de memoria disponible que sea lo suficientemente grande para el archivo.
+
+2.- Mejor ajuste: Busca el espacio de memoria más pequeño que sea suficiente para el archivo, minimizando el desperdicio de memoria.
+
+3.- Peor ajuste: Asigna el espacio de memoria más grande disponible para el archivo, lo que puede llevar a un mayor desperdicio de memoria.
+
+4.- Siguiente ajuste: Busca el siguiente espacio de memoria disponible que sea lo suficientemente grande para el archivo, avanzando en una secuencia circular de particiones.
